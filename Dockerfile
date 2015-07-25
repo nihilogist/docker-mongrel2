@@ -18,5 +18,5 @@ RUN cd /mongrel2-v1.9.2 && mkdir run
 
 RUN cd /mongrel2-v1.9.2 && mkdir tmp
 
-CMD cd /mongrel2-v1.9.2 && m2sh start -host localhost
+CMD cd /mongrel2-v1.9.2 && m2sh start -host localhost && tail -F /mongrel2-v1.9.2/logs/error.log
 
