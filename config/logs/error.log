@@ -1,0 +1,36 @@
+Sun, 26 Jul 2015 22:09:19 GMT [INFO] (src/server.c:450) Starting 0MQ with 1 threads.
+Sun, 26 Jul 2015 22:09:19 GMT [INFO] (src/request.c:58) MAX limits.header_count=1280
+Sun, 26 Jul 2015 22:09:19 GMT [INFO] (src/connection.c:1176) MAX limits.content_length=20480, limits.buffer_size=4096, limits.connection_stack_size=32768, limits.client_read_retries=5
+Sun, 26 Jul 2015 22:09:19 GMT [INFO] (src/connection.c:1182) MAX limits.proxy_read_retries=100, limits.proxy_read_retry_warn=10
+Sun, 26 Jul 2015 22:09:19 GMT [INFO] (src/task/fd.c:153) MAX limits.fdtask_stack=102400
+Sun, 26 Jul 2015 22:09:19 GMT [INFO] (src/control.c:437) Setting up control socket in at ipc://run/control
+Sun, 26 Jul 2015 22:09:19 GMT [INFO] (src/mongrel2.c:301) -- Mongrel2/1.9.1 Running. Copyright (C) Zed A. Shaw. Licensed BSD.
+Sun, 26 Jul 2015 22:09:48 GMT [ERROR] (src/connection.c:142: errno: Resource temporarily unavailable) Handler not found: /favicon.ico
+Sun, 26 Jul 2015 22:09:49 GMT [ERROR] (src/dir.c:357: errno: None) Failed to normalize base path: tests/
+Sun, 26 Jul 2015 22:09:49 GMT [ERROR] (src/dir.c:409: errno: None) Failed to normalize base path when requesting /tests/sample.html
+Sun, 26 Jul 2015 22:12:55 GMT [INFO] (src/server.c:450) Starting 0MQ with 1 threads.
+Sun, 26 Jul 2015 22:12:55 GMT [INFO] (src/request.c:58) MAX limits.header_count=1280
+Sun, 26 Jul 2015 22:12:55 GMT [INFO] (src/connection.c:1176) MAX limits.content_length=20480, limits.buffer_size=4096, limits.connection_stack_size=32768, limits.client_read_retries=5
+Sun, 26 Jul 2015 22:12:55 GMT [INFO] (src/connection.c:1182) MAX limits.proxy_read_retries=100, limits.proxy_read_retry_warn=10
+Sun, 26 Jul 2015 22:12:55 GMT [INFO] (src/task/fd.c:153) MAX limits.fdtask_stack=102400
+Sun, 26 Jul 2015 22:12:55 GMT [INFO] (src/control.c:437) Setting up control socket in at ipc://run/control
+Sun, 26 Jul 2015 22:12:55 GMT [INFO] (src/mongrel2.c:301) -- Mongrel2/1.9.1 Running. Copyright (C) Zed A. Shaw. Licensed BSD.
+Sun, 26 Jul 2015 22:12:59 GMT [ERROR] (src/dir.c:357: errno: None) Failed to normalize base path: tests/
+Sun, 26 Jul 2015 22:12:59 GMT [ERROR] (src/dir.c:409: errno: None) Failed to normalize base path when requesting /tests/sample.html
+Sun, 26 Jul 2015 22:19:17 GMT [INFO] (src/server.c:450) Starting 0MQ with 1 threads.
+Sun, 26 Jul 2015 22:19:17 GMT [INFO] (src/request.c:58) MAX limits.header_count=1280
+Sun, 26 Jul 2015 22:19:17 GMT [INFO] (src/connection.c:1176) MAX limits.content_length=20480, limits.buffer_size=4096, limits.connection_stack_size=32768, limits.client_read_retries=5
+Sun, 26 Jul 2015 22:19:17 GMT [INFO] (src/connection.c:1182) MAX limits.proxy_read_retries=100, limits.proxy_read_retry_warn=10
+Sun, 26 Jul 2015 22:19:17 GMT [INFO] (src/task/fd.c:153) MAX limits.fdtask_stack=102400
+Sun, 26 Jul 2015 22:19:17 GMT [INFO] (src/control.c:437) Setting up control socket in at ipc://run/control
+Sun, 26 Jul 2015 22:19:18 GMT [INFO] (src/mongrel2.c:301) -- Mongrel2/1.9.1 Running. Copyright (C) Zed A. Shaw. Licensed BSD.
+Sun, 26 Jul 2015 22:20:01 GMT [ERROR] (src/dir.c:357: errno: None) Failed to normalize base path: tests/
+Sun, 26 Jul 2015 22:20:01 GMT [ERROR] (src/dir.c:409: errno: None) Failed to normalize base path when requesting /tests/sample.html
+Sun, 26 Jul 2015 22:20:01 GMT [ERROR] (src/connection.c:142: errno: Resource temporarily unavailable) Handler not found: /favicon.ico
+Sun, 26 Jul 2015 22:26:42 GMT [INFO] (src/server.c:450) Starting 0MQ with 1 threads.
+Sun, 26 Jul 2015 22:26:42 GMT [INFO] (src/request.c:58) MAX limits.header_count=1280
+Sun, 26 Jul 2015 22:26:42 GMT [INFO] (src/connection.c:1176) MAX limits.content_length=20480, limits.buffer_size=4096, limits.connection_stack_size=32768, limits.client_read_retries=5
+Sun, 26 Jul 2015 22:26:42 GMT [INFO] (src/connection.c:1182) MAX limits.proxy_read_retries=100, limits.proxy_read_retry_warn=10
+Sun, 26 Jul 2015 22:26:42 GMT [INFO] (src/task/fd.c:153) MAX limits.fdtask_stack=102400
+Sun, 26 Jul 2015 22:26:42 GMT [INFO] (src/control.c:437) Setting up control socket in at ipc://run/control
+Sun, 26 Jul 2015 22:26:42 GMT [INFO] (src/mongrel2.c:301) -- Mongrel2/1.9.1 Running. Copyright (C) Zed A. Shaw. Licensed BSD.
