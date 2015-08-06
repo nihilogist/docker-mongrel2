@@ -4,21 +4,22 @@ This repository is a simple Dockerfile that starts at the mongrel2 base image an
 On running the dockerfile, it starts the mongrel2 test site on port 6767.
 
 ##Getting started
-* Execute the script **start_mongrel2.sh**
-* On the host machine go to `localhost:6767/tests/sample.html` and you should see the words *hi there*
+* Build the docker image `docker build -t [image-name] .
+* Start the docker container `docker run -d -p 6767:6767 [image-name]`
+* On the host machine go to `localhost:6767/tests/index.html` and you should see an HTML page: "Hello World"
 
 ##What has that done?
 This has:
 
-1. Built a container from the Dockerfile in this folder, using a preconfigured image from Dockerhub that contains the mongrel2 webserver
+1. Pulled down a pre-built Docker image from the docker hub with ZeroMQ and mongrel2 preinstalled
 
-2. Mounted the contents of the **config** folder into that container
+2. Installed the supervisor program
 
-3. Started the container with the 6767 port exposed to the host
+3. Copied the `deployment` directory and `supervisord.conf` file to the container
 
-4. Executed the **mongrel-start.sh** script to perform basic configuration setup and start the server
+4. Started the container with the port 6767 exposed, and mapped to port 6767 on the host machine
 
-5. Set the logs to continuously tail to make sure that the container doesn't just exit (*this is not the right way to do this, for reference* ;) )
+5. On starting the container, the supervisor daemon kicks off the mongrel `procer` process management tool to start up the server with the basic /tests/ route available
 
 ##What's next?
-The next item on the to do list is to make the startup of the mongrel server a bit nicer so that we don't have to this horribly **tail -F** command to keep it running.
+Good question! Next up is to work on putting some actual content on the webserver.
