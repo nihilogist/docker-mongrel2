@@ -4,7 +4,7 @@ This repository is a simple Dockerfile that starts at the mongrel2 base image an
 On running the dockerfile, it starts the mongrel2 test site on port 6767.
 
 ##Getting started
-* Build the docker image `docker build -t [image-name] .
+* Build the docker image `docker build -t [image-name] .`
 * Start the docker container `docker run -d -p 6767:6767 [image-name]`
 * On the host machine go to `localhost:6767/tests/index.html` and you should see an HTML page: "Hello World"
 
@@ -22,4 +22,4 @@ This has:
 5. On starting the container, the supervisor daemon kicks off the mongrel `procer` process management tool to start up the server with the basic /tests/ route available
 
 ##What's next?
-Good question! Next up is to work on putting some actual content on the webserver.
+Umm... nothing much anymore. This was just a placeholder for the dockerfile and related experiments so that we could get mongrel2 up and running. Next steps will be in further repositories that will start linking up dockerfiles.
